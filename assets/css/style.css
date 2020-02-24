@@ -1,0 +1,30 @@
+#containermain{
+    background-image: url("colorful.jpg");
+
+}
+
+#containerhead{
+    background-color: aqua;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align:center;
+    font-size: 12px;
+    border-style:solid;
+    border-color:black;
+    border: 3 3 3 3;
+    margin-top: 5px;
+    border-radius: 10px;
+   
+}
+.questions{
+    background-color:lightgray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align:center;
+    font-size: 14px;
+    border-style:solid;
+    border-color:black;
+    border: 3 3 3 3;
+    margin-top: 5px;
+    border-radius: 10px;
+   
+}
+
