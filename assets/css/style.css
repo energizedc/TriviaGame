@@ -15,11 +15,22 @@
     border-radius: 10px;
    
 }
+
+#submit{
+    background-color: lightseagreen;
+    border-style:solid;
+    border-color:black;
+    border: 3 3 3 3;
+    height: 50px;
+    width: 75px;
+}
+  
+
 .questions{
     background-color:lightgray;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align:center;
-    font-size: 14px;
+    font-size: 12px;
     border-style:solid;
     border-color:black;
     border: 3 3 3 3;
@@ -27,4 +38,9 @@
     border-radius: 10px;
    
 }
-
+#submit{
+    background-color: lightseagreen;
+    border-style:solid;
+    border-color:black;
+    border: 3 3 3 3;
+}
