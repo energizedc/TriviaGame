@@ -1,84 +1,108 @@
 <!DOCTYPE html>
 
 <html lang="en-us">
-   
+    <meta name = "viewport" content="width=device-width, initial-scale= 1.0">   
 
   <head>
 
     <meta charset="UTF-8">
     <title>Truly 80s Trivia Game</title>
-    <meta name = "viewport" content="width=device-width, initial-scale= 1.0">   
+    <link rel="stylesheet"  type = "text/css"  href="assets/css/style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"> 
-    <link rel="stylesheet"  type = "text/css"  href="assets/css/style.css">
+    
 
   </head>
 
   <body>
+
+    <style>
+#containermain{
+    background-image: url("assets/images/colorful.jpg");
+    width:100%;
+    height: 600px;
+}
+
+#containerhead{
+    background-color: aqua;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align:center;
+    font-size: 12px;
+    border-style:solid;
+    border-color:black;
+    border: 3 3 3 3;
+    margin-top: 5px;
+    border-radius: 10px;
+   
+}
+#start{
+    background-color: lightseagreen;
+    border-style:solid;
+    border-color:black;
+    border: 3 3 3 3;
+    height: 50px;
+    width: 75px;
+}
+
+#b1, #b2{
+    height: 500px;
+    max-width: 600px;
+}
+
+    </style>
     <div id = "containermain">
         <header>
             <div id = "containerhead"  >  
                 <div class="sticky-header">
                    <h1>Truly 80s Trivia Game</h1>
-                    <br>
-                    <h3 id=timer1>Time Remaining:   <span id="timer"></span> </h3>
-                    <br>
-                    <br>
-                    <br>
-                    <h4 id=results1></h4>
-                    <h4 id=results2></h4>
-                    <h4 id=results3></h4>
-                    
+                    <br>                   
+                    <h2>Hit START to play</h2>
                 </div>
             </div>    
         </header>
-    <div id = "containerquest">
-    
+
+
+
+        <div id = "containerstart">   
         <br>
-    
-    <form name=allquestions>
-        <div class = "questions">
-            <h4>Who was the lead singer of Journey in the 80s ?</h4>
-                <input type="radio" name = "quest0" value="a"> a. Michael Jackson<br>
-                <input type="radio" name = "quest0" value="b"> b. Pink<br>
-                <input type="radio" name = "quest0" value="c"> c. Steve Perry<br>
-                <input type="radio" name = "quest0" value="d"> d. Steve Irkle<br>
-        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
 
-        <div class = "questions">
-                <h4>Who was the youngest sibling on the Cosby Show?</h4>
-                    <input type="radio" name = "quest1" value="a"> a. Theo<br>
-                    <input type="radio" name = "quest1" value="b"> b. Sandra<br>
-                    <input type="radio" name = "quest1" value="c"> c. Rudy<br>
-                    <input type="radio" name = "quest1" value="d"> d. Claire<br>
-        </div>
 
-        <div class = "questions">
-            <h4>What Political Party was Alex Keaton a part of in Family Ties?</h4>
-                <input type="radio" name = "quest2" value="a"> a. Republican<br>
-                <input type="radio" name = "quest2" value="b"> b. Independent<br>
-                <input type="radio" name = "quest2" value="c"> c. Green Party<br>
-                <input type="radio" name = "quest2" value="d"> d. Democrat<br>
-        </div>
 
-        <div class = "questions">
-            <h4>What was Madonna's first major film ?</h4>
-                <input type="radio" name = "quest3" value="a"> a. Who's that girl<br>
-                <input type="radio" name = "quest3" value="b"> b. Vision Quest<br>
-                <input type="radio" name = "quest3" value="c"> c. Desperately Seeking Susan<br>
-                <input type="radio" name = "quest3" value="d"> d. Alien<br>
+        <div class="row">
+            <div class="col-lg-10" id = "b1">
+                <p>                                          </p>
+            </div>
+        
+
+        
+            <div class="col-lg-2"   >
+                      <input type="button" value="START" onclick="buttonclick()" />
+                      
+            </div> 
+        
+        
+            <div class="col-lg-1" id = "b2">
+                <p>  </p>   
+            </div> 
         </div>
-    
-         <!----- <input type="submit" value="Submit" id="submit">    ---->
-         <!-----        <input type="button" id = "submit" value="SUBMIT" onclick="buttonclick()" /> ---->
-    
-       </form>
-       </div> 
     </div>
-    <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.js"></script>
-    <script type="text/javascript" src="assets/javascript/app.js"></script>
-    <script>
+</div>
 
-</script >
+<script type="text/javascript">
+
+function buttonclick() {
+    window.location = "C:Users/tjndl/unit-5-game/TriviaGame/index2.html"
+}
+
+
+
+</script>
+
 </body>
-</html>
+</html>TriviaGame
