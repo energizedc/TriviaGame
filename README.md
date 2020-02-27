@@ -10,11 +10,15 @@ The player will have a limited amount of time to finish the quiz.
     incorrectly.
 ***********************************************************************************
 
-o   indexstart.html - This allows the player to [start] the game triggers
+* index.html - This allows the player to [start] the game triggers
 
-o   index.html - which is the actual trivia game (multiple choice
 
-o   assets/javascript/app.js - is all of the Javascript
+* index2.html - which is the actual trivia game (multiple choice
 
-o   assets/images- contains the background photo
+
+* assets/javascript/app.js - is all of the Javascript
+
+
+* assets/images- contains the background photo
+
 
