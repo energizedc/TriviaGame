@@ -7,7 +7,7 @@
 
     <meta charset="UTF-8">
     <title>Truly 80s Trivia Game</title>
-    
+    <meta name = "viewport" content="width=device-width, initial-scale= 1.0">   
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"> 
     <link rel="stylesheet"  type = "text/css"  href="assets/css/style.css">
@@ -21,7 +21,14 @@
                 <div class="sticky-header">
                    <h1>Truly 80s Trivia Game</h1>
                     <br>
-                    <h2>Time Remaining</h2>
+                    <h3 id=timer1>Time Remaining:   <span id="timer"></span> </h3>
+                    <br>
+                    <br>
+                    <br>
+                    <h4 id=results1></h4>
+                    <h4 id=results2></h4>
+                    <h4 id=results3></h4>
+                    
                 </div>
             </div>    
         </header>
@@ -31,55 +38,47 @@
     
     <form name=allquestions>
         <div class = "questions">
-                <h3>Who was the youngest sibling on the Cosby Show?</h3>
+            <h4>Who was the lead singer of Journey in the 80s ?</h4>
+                <input type="radio" name = "quest0" value="a"> a. Michael Jackson<br>
+                <input type="radio" name = "quest0" value="b"> b. Pink<br>
+                <input type="radio" name = "quest0" value="c"> c. Steve Perry<br>
+                <input type="radio" name = "quest0" value="d"> d. Steve Irkle<br>
+        </div>
+
+        <div class = "questions">
+                <h4>Who was the youngest sibling on the Cosby Show?</h4>
                     <input type="radio" name = "quest1" value="a"> a. Theo<br>
-                    <input type="radio" name = "quest1" value="b"> a. Sandra<br>
-                    <input type="radio" name = "quest1" value="c"> a. Rudy<br>
-                    <input type="radio" name = "quest1" value="d"> a. Claire<br>
+                    <input type="radio" name = "quest1" value="b"> b. Sandra<br>
+                    <input type="radio" name = "quest1" value="c"> c. Rudy<br>
+                    <input type="radio" name = "quest1" value="d"> d. Claire<br>
         </div>
 
         <div class = "questions">
-            <h3>What Political Party was Alex Keaton a part of in Family Ties?</h3>
+            <h4>What Political Party was Alex Keaton a part of in Family Ties?</h4>
                 <input type="radio" name = "quest2" value="a"> a. Republican<br>
-                <input type="radio" name = "quest2" value="b"> a. Independent<br>
-                <input type="radio" name = "quest2" value="c"> a. Green Party<br>
-                <input type="radio" name = "quest2" value="d"> a. Democrat<br>
+                <input type="radio" name = "quest2" value="b"> b. Independent<br>
+                <input type="radio" name = "quest2" value="c"> c. Green Party<br>
+                <input type="radio" name = "quest2" value="d"> d. Democrat<br>
         </div>
 
         <div class = "questions">
-            <h3>What was Madonna first major film ?</h3>
+            <h4>What was Madonna's first major film ?</h4>
                 <input type="radio" name = "quest3" value="a"> a. Who's that girl<br>
-                <input type="radio" name = "quest3" value="b"> a. Vision Quest<br>
-                <input type="radio" name = "quest3" value="c"> a. Desperately Seeking Susan<br>
-                <input type="radio" name = "quest3" value="d"> a. Alien<br>
+                <input type="radio" name = "quest3" value="b"> b. Vision Quest<br>
+                <input type="radio" name = "quest3" value="c"> c. Desperately Seeking Susan<br>
+                <input type="radio" name = "quest3" value="d"> d. Alien<br>
         </div>
     
-        <div class = "questions">
-            <h3>Who was the lead singer of Journey in the 80s ?</h3>
-                <input type="radio" name = "quest3" value="a"> a. Michael Jackson<br>
-                <input type="radio" name = "quest3" value="b"> a. Pink<br>
-                <input type="radio" name = "quest3" value="c"> a. Steve Perry<br>
-                <input type="radio" name = "quest3" value="d"> a. Steve Irkle<br>
-        </div>
-   
+         <!----- <input type="submit" value="Submit" id="submit">    ---->
+         <!-----        <input type="button" id = "submit" value="SUBMIT" onclick="buttonclick()" /> ---->
     
-    
-    </form>
-
-    
-    <button id="start">Button Timeout Start</button>
-    <button id="cancel">Button Timeout Cancel</button>
-
-    
-
-    
-
-
-
-
-
-
-     </div> 
+       </form>
+       </div> 
     </div>
-  </body>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <script type="text/javascript" src="assets/javascript/app.js"></script>
+    <script>
+
+</script >
+</body>
 </html>
